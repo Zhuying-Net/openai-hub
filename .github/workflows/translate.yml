@@ -22,4 +22,4 @@ jobs:
         with:
           token: ${{ secrets.OPENAIHUB }}  # 使用创建的Secret Token
           g4f_provider: g4f.Provider.DeepAi  # 翻译提供者
-          langs: "en,zh-TW,zh-CN,French,Arabic"  # 指定要翻译的语言
+          langs: "en,zh-CN"  # 指定要翻译的语言
