@@ -3,7 +3,7 @@
   <img src="/img/logo.webp" width="120" height="120" alt="OpenAI-Hub"/>
   <h1 align="center">OpenAI-Hub</h1>
 </p>
-<p align="center"><a>English</a> | <a href="/README.md">简体中文</a></p>
+<p align="center"><a>简体中文</a> | <a href="/README.en.md">English</a></p>
 
 <p style="font-size:18px" align="center">无需代理服务器&amp;低成本访问OpenAI接口</p>
 
