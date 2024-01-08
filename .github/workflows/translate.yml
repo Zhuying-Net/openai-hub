@@ -18,8 +18,8 @@ jobs:
           token: ${{ secrets.OPENAIHUB }}
           fetch-depth: 3  # 获取历史版本的深度
       - name: Auto Translate
-        uses: Zhuying-Net/openai-hub
+        uses: Lin-jun-xiang/action-translate-readme@v2
         with:
           token: ${{ secrets.OPENAIHUB }}  # 使用创建的Secret Token
           g4f_provider: g4f.Provider.DeepAi  # 翻译提供者
-          langs: "en,zh-CN"  # 指定要翻译的语言
+          langs: "en"  # 指定要翻译的语言
