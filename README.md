@@ -8,9 +8,17 @@
 <p style="font-size:18px" align="center">无需代理服务器&amp;低成本访问OpenAI接口</p>
 
 
-> [官方地址](https://www.openai-hub.com) | 
-> [接口文档](https://www.openai-hub.com/api/) | 
-> [开放平台](https://api.openai-hub.com)
+> [✨官方地址](https://www.openai-hub.com) | 
+> [🔥接口文档](https://www.openai-hub.com/api/) | 
+> [🌟开放平台](https://api.openai-hub.com)
+
+# 优势
+- 低成本访问OpenAI的接口
+- 采用ECDN全球加速，你可以在任何地方获得极致的访问速度
+- 不需要担心OpenAI的封号
+- 没有使用期限限制
+- 你可以访问任意AI模型，只需要与OpenAI的请求方式一样
+
 
 # 使用步骤
 
@@ -37,7 +45,7 @@ curl --request POST 
 -H "Content-Type: application/json" 
 --data '{
 "max_tokens": 4000,
-"model": "需要调用的模型",
+"model": "gpt-4", --此处为调用的模型，其他模型请更改模型名称
 "temperature": 0.8,
 "top_p": 1,
 "presence_penalty": 1,
@@ -54,6 +62,14 @@ curl --request POST 
 }'
 ```
 
-## 交流群
+## 交流
 
-<img width="240" height="240" src="/img/群聊二维码.png">
+
+<p style="float:left;margin:30px;width:100%"><img width="240" height="240" src="/img/群聊二维码.png">
+<img width="240" height="240" src="/img/tg.png"></p> 
+
+
+
+## 亲，留个⭐再走吧~
+
+
