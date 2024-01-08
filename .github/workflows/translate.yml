@@ -1,0 +1,25 @@
+# .github/workflows/translate.yml
+# 工作流名称
+name: Translate Readme
+
+# 触发工作流的事件，这里是每次向指定分支推送时
+on:
+  push:
+    branches: ['**']  # 对所有分支生效
+
+# 定义工作流中的任务
+jobs:
+  translate:
+    runs-on: ubuntu-latest  # 指定运行环境
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.OpenAI-Hub }}
+          fetch-depth: 3  # 获取历史版本的深度
+      - name: Auto Translate
+        uses: Lin-jun-xiang/action-translate-readme@v2
+        with:
+          token: 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  # 使用创建的Secret Token
+          g4f_provider: g4f.Provider.DeepAi  # 翻译提供者
+          langs: "en"  # 指定要翻译的语言
