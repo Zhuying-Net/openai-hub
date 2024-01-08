@@ -1,12 +1,4 @@
----
-title: GPT-4V识图教程
 
-meta:
-  - name: keywords
-    content: GPT-4 Turbo, 视觉功能, API使用, 示例代码, 类型展示, 官方文档
-  - name: description
-    content: 本教程提供了GPT-4 Turbo具有视觉功能版本的使用方法，包括注意事项、示例代码和相关类型展示。它详细介绍了如何通过API调用进行图像分析，以及如何利用这一功能进行图片比较和内容解释。
----
 # GPT4V识图教程
 
 ::: tip 注意

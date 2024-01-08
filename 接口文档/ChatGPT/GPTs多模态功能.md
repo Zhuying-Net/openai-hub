@@ -1,12 +1,4 @@
----
-title: GPTs多模态功能概述和应用指南
 
-meta:
-  - name: keywords
-    content: GPTs, 多模态功能, 应用指南, gizmo_id, 官方DALL-E, GPTs商店, 示例代码
-  - name: description
-    content: 本文提供了关于GPTs多模态功能的概述和应用指南，包括模型名称、获取gizmo_id的方法、在线体验教程和GPTs商店的探索。文章还包括了调用官方DALL-E的示例以及GPTs应用列表的部分展示。
----
 # 关于GPTs多模态功能的概述和应用指南
 
 > OpenAI尚未开放GPTs的官方API，但通过逆向工程，可以访问OpenAI官网上的所有GPTs应用。GPTs应用商店已包含数以万计的应用程序，涵盖广泛的用途。
