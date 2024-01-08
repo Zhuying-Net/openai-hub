@@ -31,7 +31,7 @@
 
 **有几个注意的地方：**
 - [控制台](https://api.openai-hub.com)的APIkey不能和其他渠道的APIkey混用
-- [APIkey](/faq/1.html#如何获取apikey)不能带空格，格式通常为sk-开头的
+- [APIkey](https://api.openai-hub.com/faq/1.html#如何获取apikey)不能带空格，格式通常为sk-开头的
 
 
 #### 以下是GPT对话接口各语言示例代码，仅测试gpt-3.5-turbo模型，其余模型请更改model参数 [模型名称](/price/chatgpt.html)
