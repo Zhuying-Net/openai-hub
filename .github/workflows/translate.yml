@@ -20,6 +20,6 @@ jobs:
       - name: Auto Translate
         uses: Lin-jun-xiang/action-translate-readme@v2
         with:
-          token: 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  # 使用创建的Secret Token
+          token: ${{ secrets.OpenAI-Hub }}
           g4f_provider: g4f.Provider.DeepAi  # 翻译提供者
           langs: "en"  # 指定要翻译的语言
