@@ -15,11 +15,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.OpenAI-Hub }}
+          token: ${{ secrets.OpenAIHub }}
           fetch-depth: 3  # 获取历史版本的深度
       - name: Auto Translate
         uses: Lin-jun-xiang/action-translate-readme@v2
         with:
-          token: ${{ secrets.OpenAI-Hub }}
+          token: ${{ secrets.OpenAIHub }}
           g4f_provider: g4f.Provider.DeepAi  # 翻译提供者
           langs: "en"  # 指定要翻译的语言
