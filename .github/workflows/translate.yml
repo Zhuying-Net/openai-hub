@@ -1,25 +1,19 @@
-# .github/workflows/translate.yml
-# 工作流名称
-name: Translate Readme
-
-# 触发工作流的事件，这里是每次向指定分支推送时
+name: 'Github Rebot for issues-translator'
 on:
-  push:
-    branches: ['**']  # 对所有分支生效
-
-# 定义工作流中的任务
+  issues:
+    types: [ opened ]
+  issue_comment:
+    types: [ created ]
 jobs:
   translate:
-    runs-on: ubuntu-latest  # 指定运行环境
+    permissions:
+      issues: write
+      discussions: write
+      pull-requests: write
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: usthe/issues-translate-action@v2.7
         with:
-          token: ${{ secrets.OPENAIHUB }}
-          fetch-depth: 3  # 获取历史版本的深度
-      - name: Auto Translate
-        uses: Lin-jun-xiang/action-translate-readme@v2
-        with:
-          token: ${{ secrets.OPENAIHUB }}  # 使用创建的Secret Token
-          g4f_provider: g4f.Provider.DeepAi  # 翻译提供者
-          langs: "en,zh-CN,French,Arabic"  # 指定要翻译的语言
+          IS_MODIFY_TITLE: true
+          BOT_GITHUB_TOKEN: ${{ secrets.OPENAIHUB }}
+          CUSTOM_BOT_NOTE: Bot detected the issue body's language is not English, translate it automatically. 👯👭🏻🧑‍🤝‍🧑👫🧑🏿‍🤝‍🧑🏻👩🏾‍🤝‍👨🏿👬🏿
