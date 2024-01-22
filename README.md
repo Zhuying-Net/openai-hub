@@ -18,6 +18,7 @@
 - 不需要担心OpenAI的封号
 - 没有使用期限限制
 - 你可以访问任意AI模型，只需要与OpenAI的请求方式一样
+- 没有限速要求，普通账户对于dall，gpt4-vision，等模型有限速要求
 
 
 # 使用步骤
@@ -28,7 +29,6 @@
 - 原来 `https://api.openai.com`
 - 现在 `https://api.openai-hub.com` 只需要在后面加上`-hub`即可
 - 市面上99%的程序都可以更改接口地址。如果是自己开发的系统，需要在代码里面修改。
-- 
 
 **有几个注意的地方：**
 - [控制台](https://api.openai-hub.com)的APIkey不能和其他渠道的APIkey混用
